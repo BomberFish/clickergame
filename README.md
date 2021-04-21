@@ -1,8 +1,4 @@
-# clickergame
-A simple HTML clicker game
+# clickergame but karlson
+A simple HTML clicker game, but now its wishlisting karlson.
 
-![Example](https://i.slimediamond.ml/xNfAZAMDMq5J.png)
-
-Example [above]
-
-Used on https://slimediamond.ml/projects/clickergame
+made for https://www.reddit.com/r/DaniDev lol
