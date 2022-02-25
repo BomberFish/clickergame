@@ -1,13 +1,37 @@
+@font-face {
+    font-family: 'Motiva Sans';
+    src: url('MotivaSansRegular.woff2') format('woff2'), url('MotivaSansRegular.woff') format('woff');
+}
+
 body {
-  color: white;
-  background-color: #1E2837;
+    color: white;
+    background-color: #1E2837;
+    font-family: "Motiva Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    font-family: "Motiva Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1 {
-  color: white;
+    color: white;
+    font-family: "Motiva Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 /* i dare you to decode this. */
+
 footer {
-  color: #6d6c6b;
+    color: #6d6c6b;
+}
+
+button {
+    border-radius: 0%!important;
+    padding: 3px!important;
+    background-image: linear-gradient(#aaffaa, #115511);
+}
+
+p {
+    font-weight: bold;
+    font-size: 2em;
 }

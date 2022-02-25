@@ -1,12 +1,13 @@
 <html>
+
 <head>
     <title>KARLSON on Steam</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!--Haha decentralized css go brrr-->
     <link rel="stylesheet" href="bootstrap.min.css">
-<!--Failed attempt at importing steam assets lol-->
-<!---    <link href="https://store.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=Rc2hpzg2Ex3T&amp;l=english" rel="stylesheet" type="text/css">
+    <!--Failed attempt at importing steam assets lol-->
+    <!---    <link href="https://store.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=Rc2hpzg2Ex3T&amp;l=english" rel="stylesheet" type="text/css">
     <link href="https://store.akamai.steamstatic.com/public/shared/css/shared_global.css?v=DNyAHkw02IjI&amp;l=english" rel="stylesheet" type="text/css">
     <link href="https://store.akamai.steamstatic.com/public/css/v6/store.css?v=7Fmj9VkmVOjf&amp;l=english" rel="stylesheet" type="text/css">
     <link href="https://store.akamai.steamstatic.com/public/shared/css/user_reviews.css?v=-c7CCyRzI4Uu&amp;l=english" rel="stylesheet" type="text/css">
@@ -45,8 +46,9 @@
 <script type="text/javascript" src="https://store.akamai.steamstatic.com/public/shared/javascript/shared_responsive_adapter.js?v=pVvZxRnSFjnX&amp;l=english"></script>-->
     <br>
     <div class="container">
-    <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <img src=logo_steam.svg width=200 height=60 alt="Totally Steam"></img>
     <br><br>
@@ -54,8 +56,7 @@
     <br>
     <img src=header.jpg></img>
     <br>
-    <br>
-    What do you get if you combine an FPS, Parkour, Slowmo & ... Milk? KARLSON. The milk-infused man will stop at nothing to locate and drink his favorite beverage.
+    <br> What do you get if you combine an FPS, Parkour, Slowmo & ... Milk? KARLSON. The milk-infused man will stop at nothing to locate and drink his favorite beverage.
     <br>
     <br>
 
@@ -64,11 +65,13 @@
                             <span>Add to your wishlist</span>
                         </a>-->
     <button class="btn btn-lg btn-success" onClick="wishlistedKarlson();">Add to your wishlist</button>
-    <br>
-    <p style="font-family: arial;">Times Clicked:<span id="milk"></p>
+    <br><br>
+    <p>Times Clicked: <span id="milk"></p>
 </body>
 <script>
+    
     var milk = 0;
+    document.getElementById("milk").innerHTML = milk;
     function wishlistedKarlson(){
         milk++
         document.getElementById("milk").innerHTML = milk;
@@ -78,8 +81,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
 <!--Obligatory Legal Text-->
-<footer>By DALEK_77, in 2021. Fork of another open-source project. Steam is &copy; of Valve Software.</footer>
+<footer>By BomberFish, in 2021/2022. Fork of another open-source project. Steam is &copy; Valve Software. All rights reserved.</footer>
 </html>
